@@ -1,0 +1,12 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 480px;
+  margin: 82px auto;
+}
+
+.affiliation {
+  background-color: #f8f8f8;
+  color: #555555;
+  padding: 16px 24px;
+  margin: 24px 0 56px;
+}
