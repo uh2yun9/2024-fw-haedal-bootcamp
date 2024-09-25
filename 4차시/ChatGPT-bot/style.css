@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  background-color: #6495ED;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5c5c66;
+  border-bottom: 1px solid #5c5c66;
+  height: 45px;
+}
+
+.header h3 {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 20;
+}
+
+.info a {
+  color: #5c5c66;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.info a:hover {
+  color: #414148
+}
+
+.input-container{
+    background-color: rgb(66, 74, 120);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #5c5c66;
+    position: sticky;
+    bottom: 0;
+}
+
+#user-input {
+  background-color: #92a3c1;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 8px;
+  flex: 9;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+#user-input::placeholder{
+  color: #434a73;
+  font-weight: 400;
+}
+
+#send-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(37, 99, 223);
+  color: black;
+  cursor: pointer;
+  margin-left: 15px;
+  transition: all 0.3s ease;
+}    
+
+#send-button:hover{
+  background-color:rgb(0, 75, 225);
+}
